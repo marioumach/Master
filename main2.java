@@ -35,7 +35,7 @@ public class main2 {
 /*************************  le choix du graphe input**************************/
 
 /*****************************************************************************************************************************************************************************************************************/
-         g= f.lectureFichier6("FileRead/deblp_graph.txt");
+         g= f.lectureFichier6("FileRead/amazon_graph.txt");
 //        g= f.lectureFichier3("FileRead/network.dat");
         System.out.println("le nombre des noeuds  " + g.getVertexCount());
          Vertex = new Vector(g.getVertices());
@@ -117,7 +117,7 @@ public class main2 {
 
         /*****************************************************************************************************************************************************************************************************************/
         System.out.println(green+" 30 % inital infected nodes  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"+reset);
-        g= f.lectureFichier6("FileRead/deblp_graph.txt");
+        g= f.lectureFichier6("FileRead/amazon_graph.txt");
         System.out.println("le nombre des noeuds  " + g.getVertexCount());
         Vertex = new Vector(g.getVertices());
         System.out.println("le nombre des aretes  " + g.getEdgeCount());
@@ -181,7 +181,7 @@ public class main2 {
 
         /*****************************************************************************************************************************************************************************************************************/
         System.out.println(green+" 50 % inital infected nodes  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"+reset);
-        g= f.lectureFichier6("FileRead/deblp_graph.txt");
+        g= f.lectureFichier6("FileRead/amazon_graph.txt");
         System.out.println("le nombre des noeuds  " + g.getVertexCount());
         Vertex = new Vector(g.getVertices());
         System.out.println("le nombre des aretes  " + g.getEdgeCount());
